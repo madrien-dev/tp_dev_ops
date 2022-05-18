@@ -1,7 +1,7 @@
 const express = require('express')
 const cors = require('cors')
 
-/** Importé les variable d'environnements */
+/** Importé les variables d'environnements */
 require('dotenv').config({ 
     path: process.env.NODE_ENV === "test" ? `.env.test` : undefined 
 })
