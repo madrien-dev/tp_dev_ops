@@ -1,0 +1,23 @@
+name: ARTIFACT
+
+on: [push]
+
+jobs:
+  build_and_test:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+      - name: npm install, build, and test
+        run: |
+          npm install
+          npm test
+          npm run build
+          ls
+      # - name: Archive production artifacts
+      #   uses: actions/upload-artifact@v3
+      #   with:
+      #     name: Build
+      #     path: |
+      #       dist
+      #       !dist/**/*.md
