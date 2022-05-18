@@ -7,7 +7,7 @@ on:
 env:
   DOCKER_USER: ${{secrets.DOCKERHUB_USERNAME}}
   DOCKER_PASSWORD: ${{secrets.DOCKERHUB_TOKEN}}
-  REPO_NAME: TP_DEV_OPS
+  REPO_NAME: TpDevOps
 
 
 jobs:
