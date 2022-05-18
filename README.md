@@ -1,16 +1,14 @@
 # project_DevOps
+Nous avons réaliser ce projet à deux : Meunier Adrien et Chauvin Pierre. 
 
-first : clone the project
+Ce tp à pour but de travailler CI/CD
 
-second : cd project_DevOps puis npm i
+SITE EN LINE : https://tpdesops.herokuapp.com/
 
-thrid : launch test unit with npm run test 
+DOCKER HUB : https://hub.docker.com/r/pierrechauvin44
 
+DOCUMENTATION ONLINE : https://madrien-dev.github.io/tp_dev_ops/
 
-AIDE POUR GITHUB : https://github.blog/2022-02-02-build-ci-cd-pipeline-github-actions-four-steps/
+LIEN DISCORD : https://discord.gg/hkJQuB6JRW
 
-AIDE POUR GITLAB : https://blog.eleven-labs.com/fr/introduction-gitlab-ci/ 
-
-SITE EN LINE :
-
-https://tpdesops.herokuapp.com/
+Le lien discord permet de voir l'envoie des notifications
