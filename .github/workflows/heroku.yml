@@ -3,7 +3,7 @@ name: HEROKU
 on:
   push:
     branches:
-      - master
+      - main
 
 jobs:
   build:
