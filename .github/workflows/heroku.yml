@@ -1,4 +1,4 @@
-name: HEROKU
+name: DEPLOYEMENT SUR SITE
 
 on:
   push:
