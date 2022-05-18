@@ -18,11 +18,19 @@ Définir l'environnement (ubuntu)
 node -v
 
 git clone https://github.com/madrien-dev/tp_dev_ops.git
+
 npm i
+
 test unitaire
+
 test de qualité 
+
 test de sécurité
+
 Build
+
 Deployement
+
 Envoyé une notification sur discord
+
 Mettre a jour la documentation github (numéro de version ajouté +1)
