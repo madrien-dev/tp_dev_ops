@@ -16,8 +16,7 @@ jobs:
 
     strategy:
       matrix:
-        node-version: [14.16.1-stretch-slim]
-        # See supported Node.js release schedule at https://nodejs.org/en/about/releases/
+        node-version: [14.*]
 
     steps:
     - uses: actions/checkout@v3
