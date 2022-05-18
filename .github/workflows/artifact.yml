@@ -1,9 +1,9 @@
 name: ARTIFACT
 
-# on:
-#   push:
-#     branches:
-#       - 'main'
+on:
+  push:
+    branches:
+      - 'main'
 env:
   DOCKER_USER: ${{secrets.DOCKERHUB_USERNAME}}
   DOCKER_PASSWORD: ${{secrets.DOCKERHUB_TOKEN}}

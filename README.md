@@ -34,3 +34,5 @@ Deployement
 Envoyé une notification sur discord
 
 Mettre a jour la documentation github (numéro de version ajouté +1)
+
+coucou
